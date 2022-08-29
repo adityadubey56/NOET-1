@@ -1,0 +1,543 @@
+/* Sahil Chopade */
+.col-md-4 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 360px;
+    margin: 10px;
+    padding: 30px 20px;
+    position: relative;
+    bottom: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head-div {
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+.heading_1 {
+    letter-spacing: normal;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none solid rgb(17, 17, 17);
+    font-size: 2.25rem;
+    margin: 30px auto 0 94px;
+    text-align: center;
+}
+
+.subheading_1 {
+    line-height: 2;
+    font-size: 1.25rem;
+    margin: 20px auto 0 94px;
+    color: gray;
+    text-align: center;
+}
+
+.card-1 {
+    margin: 30px 10px;
+}
+
+.card-heading {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-sub-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+.nav-hover:hover{
+    color: #F2DF3A;
+}
+
+.navbar-nav {
+    margin-left: 500px;
+}
+
+.dropdown-toggle {
+    margin-top: 9px;
+}
+
+@media only screen and (min-width: 950px) {
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width: 949px) {
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .col-md-4 {
+        position: relative;
+        top: 5px;
+        right: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .col-md-4 {
+        margin: 10px 30px;
+        position: static;
+    }
+
+    .card-heading {
+        text-align: center;
+    }
+
+    .heading_1 {
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .subheading_1 {
+        text-align: center;
+        margin-right: 100px;
+    }
+}
+
+/* Aditya Dubey  */
+.main-heading{
+    text-shadow: 2px 2px red;
+    font-weight: 700;
+}
+.buttons-head {
+    font-size: 1.25rem;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border:white;
+    display:inline-block;
+    word-spacing: 2%;
+}
+
+.buttons-content {
+    background-color: #F2DF3A;
+    border-radius: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    font-weight: 500;
+    /* width: fit-content; */
+}
+
+.buttons-content:hover {
+    background-color: white;
+}
+
+.abstract-submission {
+    padding: 7.5%;
+    /* margin-top: 5%; */
+    /* padding-top:14%; */
+    width: 100%;
+}
+
+.abstract-content {
+    color: grey;
+
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    /* margin:5%; */
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abstract-content:hover {
+    
+}
+
+.abstract-list-items {
+    margin: 2%;
+}
+
+.abstract-items {
+    display: flex;
+    margin: 2%;
+}
+
+.abstract-element {
+    border: 2.3px black solid;
+    background-color: aquamarine;
+    border-radius: 3px;
+    width: 15%;
+}
+
+.abstract-links:hover {
+    text-decoration: none;
+}
+
+.social-handels-content {
+    padding: 2%;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+}
+
+.social-handels-content:hover {
+    
+}
+
+.social-handels-items {
+    margin: 1%;
+    border-radius: 2px;
+}
+
+.header {
+    background-image: url('bg-div1.jpg');
+    background-repeat: no-repeat;
+    
+}
+
+.header-flex-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 10em;
+}
+
+.links {
+    color: white;
+}
+
+.links:hover {
+    color: rgb(254, 128, 128);
+}
+
+/* .logo-img{
+    width: 50%;
+} */
+/* .nav{
+    /* border: 2em; */
+/* margin-top:5%; */
+/* } */
+*/ .nav-item {
+    color: white;
+    padding: 20px;
+}
+
+.heading {
+    width: 70%;
+    text-align: center;
+    margin-top: 5.5%;
+    margin-left: 5.5%;
+    font-weight: 1000;
+    font-size: 6rem;
+    display: flex;
+}
+
+/* Social Handels////////////// */
+.social-handels {
+
+    /* background-color: #F2DF3A; */
+    display: flex;
+    width: 100%;
+    padding: 2%;
+
+}
+
+.social-handels-content {
+    color: grey;
+    background-color: #277BC0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    /* margin:5%; */
+    width: 70%;
+}
+
+/* About Container Classes///////////////////// */
+.abt-imgs {
+    border-radius: 6px;
+    width: 100%;
+    box-shadow: 30px;
+}
+
+.about {
+    /* background-color: #F2DF3A; */
+    /* display: flex; */
+    width: 100%;
+    padding: 2%;
+}
+
+.how-to-reach {
+
+    display: flex;
+    color: grey;
+    background-color: white;
+    /* text-align: center; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+    margin: 5%;
+    width: 70%;
+}
+
+.how-to-reach:hover {
+    
+}
+
+.about-iitism {
+
+    display: flex;
+    color: grey;
+    background-color: white;
+    /* text-align: center; */
+    border-radius: 10px;
+    padding: 3%;
+    margin: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 70%;
+
+}
+
+.about-iitism:hover {
+    
+}
+
+/* .htr-details{
+    float:left;
+}
+.htr-img{
+    float:left;
+} */
+.abtiit-heading {}
+
+.abtiit-details {
+    float: right;
+    text-align: right;
+}
+
+.abtiit-img {
+    float: right;
+
+}
+
+/* Announcement Classes///////////////////////////////////// */
+.div-heading {
+    /* width:fit-content; */
+    /* text-align: center; */
+    margin: 1.5%;
+    padding: 2.5%;
+    /* padding-right: 5%; */
+    padding-top: 3%;
+    margin-top: 4%;
+}
+
+.announcement-content {
+
+    color: grey;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1.5px;
+    /* margin:5%; */
+    width: 70%;
+}
+
+.announcement-content:hover {
+   
+}
+
+.subhead {
+    color: grey;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.attention {
+    color: red;
+}
+
+.payment-list {
+    list-style: none;
+    margin: 0.5%;
+    text-align: left;
+}
+
+.payment-list-item {
+    text-align: center;
+    padding: 1.0%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: left;
+    list-style: none;
+}
+
+.payment-list-subheading {
+    text-align: left;
+    color: aqua;
+    padding: 1%;
+    /* margin: 2%; */
+}
+
+/* Contact classes      //////////////////////// */
+.contact-container {
+    /* margin-top: 5%; */
+    padding: 7.5%;
+    /* margin-top: 5%; */
+    /* padding-top:14%; */
+    width: 100%;
+}
+
+.contact-content {
+
+
+    color: grey;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* margin:5%; */
+    width: 70%;
+    /* align-content: center; */
+}
+
+.contact-content:hover {
+}
+
+.contact-items {
+    /* font-size: 1rem; */
+    text-align: center;
+    padding: 1.5%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: left;
+    list-style: none;
+}
+
+.footer-items:hover {
+    color: lightblue;
+}
+
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    /* .how-to-reach {
+       width: 50%;
+    } */
+}
+
+@media screen and (max-width: 900px) {
+    .how-to-reach {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .about-iitism {
+        width: 70%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 627px) {
+    .announce-head {
+
+        font-size: 2.35rem;
+
+    }
+
+    .how-to-reach {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .about-iitism {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .abt-imgs {
+        width: 100%;
+    }
+
+    .announcement-content {
+        width: 100%;
+    }
+
+    .contact-content {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: 2rem;
+        margin-left: 15%;
+    }
+
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .announce-head {
+        font-size: 1.6rem;
+    }
+
+    .buttons-head {
+        font-size: 1.25rem;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border: 0px;
+    }
+
+    .abstract-list-items {
+        font-size: 0.10rem;
+    }
+
+    .announce-subhead {
+        font-size: 1.20rem;
+    }
+
+    .how-to-reach {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .about-iitism {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .abt-imgs {
+        width: 100%;
+    }
+
+    .announcement-content {
+        width: 100%;
+    }
+
+    .contact-content {
+        width: 100%;
+    }
+
+}
